@@ -1,0 +1,29 @@
+div {
+  margin: 100px 0 0 500px;
+}
+
+td {
+  border: 10px solid #2c2c29;
+  padding: 5px;
+}
+.red {
+  background: #ff5d47;
+}
+
+.yellow {
+  background: #ffe664;
+}
+
+.black {
+	background: #2e3a36;
+}
+
+.blue {
+  background: #0d4585;
+}
+
+.table {
+  width: 499px;
+  height: 495px;
+  padding: 5px;
+}
