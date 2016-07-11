@@ -1,17 +1,11 @@
-body {
+  body {
   background-image: url('../img/fon.png');
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: bottom;
-  margin: 0 auto;
-  -moz-background-size: 100%;
-  -webkit-background-size: 100%;
-  -o-background-size: 100%;
-  background-size: 100%;
   font-family: "Helvetica Neue Regular", Arial;
-  border: 1px solid black;
-  font-size: 14px;
-  font-weight: bold;
-}
+  }
+
+
 
 @font-face {
   font-family: 'Helvetica Neue Regular';
@@ -36,6 +30,7 @@ body {
 
 .menu > li {
   float: right;
+
 }
 
 ul.menu > li > a {
@@ -43,14 +38,19 @@ ul.menu > li > a {
   display: block;
   color: #60b5ed;
   text-decoration: none;
-  border: 1px solid transparent;
 }
 
 ul.menu > li > a:hover {
   background-color: #4eabda;
   color: white;
-  /*border: 1px solid #4eabda;*/
 }
+
+
+ul.menu > li.grad a:hover {
+background-image: url('../img/gradient1.png');
+}
+
+
 
 .line {
    border-right: 1px solid #60b5ed;
@@ -142,7 +142,8 @@ input {
 input:hover {
   background: #1b5288;
   border: 1px solid #1d4c7c;
-  box-shadow: 0 0 10px 5px rgba(221, 221, 221, 0.3);
+  /*box-shadow: 0 0 10px 5px rgba(221, 221, 221, 0.3);*/
+  box-shadow: 0 1px 0 #4b4b4b, inset 0 2px 5px rgba(29, 26, 22, 0.2), 0 0 9px rgba(47, 123, 197, 0.77), inset 0 0 2px rgba(0, 0, 0, 0.1);
 }
 
 input[type="checkbox"] {
